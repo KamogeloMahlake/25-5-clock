@@ -1,0 +1,39 @@
+#root {
+  margin: 0 auto;
+}
+#App {
+  display: grid;
+  grid-template: auto auto / auto auto;
+  gap: 10px;
+
+}
+#break-label,
+#session-label,
+#timer-label {
+  border: 1px solid black;
+  padding: 10px
+}
+#timer-label {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#App div div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  margin: 0 10px;
+}
+#break-increment,
+#session-increment,
+#break-decrement,
+#session-decrement {
+  border: 1px solid black;
+
+}
